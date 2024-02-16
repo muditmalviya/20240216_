@@ -1,0 +1,90 @@
+[
+  {
+    "id": 21,
+    "name": "Laptop",
+    "description": "High-performance laptop for work and gaming",
+    "price": 899.99,
+    "stock": 50,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 22,
+    "name": "Smartphone",
+    "description": "Flagship smartphone with advanced camera features",
+    "price": 799.99,
+    "stock": 100,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 23,
+    "name": "Action Camera",
+    "description": "Compact camera for capturing adventures in high resolution",
+    "price": 249.99,
+    "stock": 30,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 24,
+    "name": "Drone",
+    "description": "Quadcopter drone for aerial photography and videography",
+    "price": 599.99,
+    "stock": 20,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 25,
+    "name": "Portable Projector",
+    "description": "Mini projector for home entertainment or presentations",
+    "price": 199.99,
+    "stock": 40,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 26,
+    "name": "Wireless Headphones",
+    "description": "Bluetooth headphones for wireless audio experience",
+    "price": 129.99,
+    "stock": 60,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 27,
+    "name": "Digital Camera",
+    "description": "Professional-grade digital camera for stunning photography",
+    "price": 899.99,
+    "stock": 25,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 28,
+    "name": "Smartwatch",
+    "description": "Advanced smartwatch with fitness tracking and notifications",
+    "price": 349.99,
+    "stock": 80,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 30,
+    "name": "E-reader",
+    "description": "Electronic reader for accessing digital books and documents",
+    "price": 149.99,
+    "stock": 50,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 1708055655886,
+    "name": "Bookksss",
+    "description": "Professional-grade digital book for stunning knowledge",
+    "price": 100000,
+    "stock": 10,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Bookksss",
+    "description": "Professional-grade digital book for stunning knowledge",
+    "price": 100000,
+    "stock": 10,
+    "image": "https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "id": 1708055688623
+  }
+]
