@@ -1,0 +1,128 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "e_commerce_amazon_collections",
+    "dateExported": "2024-02-18T19:52:25.052Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d4980901-6cf3-4647-94ff-0a360d5e0a74",
+            "colId": "f39f437f-c38f-47be-afc1-69a2c75a46c1",
+            "containerId": "",
+            "name": "Search Product",
+            "url": "http://localhost:3000/search?name=E-reader",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-16T01:48:56.433Z",
+            "modified": "2024-02-16T02:10:20.631Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "E-reader",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6ba49b4e-ad40-428c-9c55-7f5eb04a3f92",
+            "colId": "f39f437f-c38f-47be-afc1-69a2c75a46c1",
+            "containerId": "",
+            "name": "Update Product Details",
+            "url": "localhost:3000/products/29",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-02-16T02:16:34.355Z",
+            "modified": "2024-02-18T19:50:25.352Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 29,\n    \"name\": \"Bluetooth Speaker\",\n    \"description\": \"Portable speaker with Bluetooth connectivity for music on-the-go\",\n    \"price\": 79.99,\n    \"stock\": 100,\n    \"image\": \"https://example.com/images/bluetoothspeaker.jpg\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2a616d2b-dcfb-4461-b669-5f5c5dbf52e3",
+            "colId": "f39f437f-c38f-47be-afc1-69a2c75a46c1",
+            "containerId": "",
+            "name": "Check Order Status",
+            "url": "localhost:3000/orders/1708050221305",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-16T02:19:46.040Z",
+            "modified": "2024-02-16T02:27:31.331Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "571756ed-950d-4bb9-99de-a26ecae819d5",
+            "colId": "f39f437f-c38f-47be-afc1-69a2c75a46c1",
+            "containerId": "",
+            "name": "Add Orders",
+            "url": "localhost:3000/orders",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-02-16T02:22:01.428Z",
+            "modified": "2024-02-18T19:50:38.303Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"customer_name\": \"Mudit Malviya\",\n    \"products\": [\n      {\n        \"product_id\": 1,\n        \"product_name\": \"Laptop\",\n        \"quantity\": 1\n      },\n      {\n        \"product_id\": 3,\n        \"product_name\": \"Glasses\",\n        \"quantity\": 5\n      }\n    ],\n    \"total_price\": 1149.97,\n    \"status\": \"Placed\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f04652a6-6231-4937-89f1-70c909a91d3f",
+            "colId": "f39f437f-c38f-47be-afc1-69a2c75a46c1",
+            "containerId": "",
+            "name": "Cancel Order",
+            "url": "localhost:3000/orders/1708050221305/cancel",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2024-02-16T02:26:28.382Z",
+            "modified": "2024-02-16T02:27:11.424Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b4b69148-cf4f-4a4f-a9a0-3876340220c6",
+            "colId": "f39f437f-c38f-47be-afc1-69a2c75a46c1",
+            "containerId": "",
+            "name": "Remove Product",
+            "url": "localhost:3001/products/29",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2024-02-16T02:28:36.469Z",
+            "modified": "2024-02-18T19:51:21.877Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "676ca13b-e0c1-4fec-82ca-ef66b264c83a",
+            "colId": "f39f437f-c38f-47be-afc1-69a2c75a46c1",
+            "containerId": "",
+            "name": "Post Product",
+            "url": "localhost:3001/products",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-02-16T03:52:23.574Z",
+            "modified": "2024-02-18T19:51:07.110Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Bookksss\",\n    \"description\": \"Professional-grade digital book for stunning knowledge\",\n    \"price\": 100000,\n    \"stock\": 10,\n    \"image\": \"https://example.com/images/digitalcamera.jpg\"\n  }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
